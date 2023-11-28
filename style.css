@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container {
+    display: flex;
+    flex-direction:column;
+    background-image: url(./assets/background.jpg);
+}
+header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: navy;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Cormorant';
+}  
+#logo {
+    position: absolute;
+    width: 50px;
+    left: 650px;
+}
+img {
+    width: 300px;
+    height: 450px;
+}
+main {
+    display: flex;
+    } 
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    }
+   .forecast {
+    display: flex;
+  flex-basis: 33%;
+  gap: 30px;
+  padding: 20px;
+  }
+.teleport {
+    display: flex;
+   flex-basis: 33%;
+   gap: 30px;
+   padding: 20px;
+}
+.wishes {
+    display: flex;
+  flex-basis: 33%;
+  gap: 30px;
+  padding: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    color: navy;
+    font-size: 36px;
+}
+aside {
+   font-family:'Cormorant';
+    padding-left: 30px;
+    padding-top: 50px;
+   }
+   .menu {
+    color: rgb(10, 45, 10);
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: oblique;
+   }
+h3 {
+    color: brown;
+    font-size: 36px;
+    font-weight: bold;
+}
+.menu:hover {
+    color: red;
+}
+button {
+    width: 300px;
+    height: 60px;
+    color: rgb(10, 10, 75);
+    background-color: bisque;
+    border: none;
+    font-family:'Cormorant';
+    font-size: 24px;
+    }
+    @font-face {
+        font-family: "Cormorant"; 
+        src: url("./fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf"); 
+          } 
